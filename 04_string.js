@@ -9,7 +9,7 @@ var charAtLastIndex = greet.charAt(lengthGreet-1);
 console.log(` Last Char is ${charAtLastIndex} of Index is ${lengthGreet}`);
 
 var greet = "Good Morning Virat Dude";
-var lengthGreet= greet.length;
+var lengthGreet= greet.length; 
 console.log(greet,'Length of String is:', lengthGreet);
 
 console.log(`------------------------------------`);
