@@ -19,13 +19,17 @@ console.log(`------------------- Q.2 -------------------------`);
 console.log(`The type of function is :`,typeof square);
 
 console.log(`------------------- Q.3 ------------------------`);
-var len = 499;
-var width = 917;
-var result = len * width;
-console.log(`The area of Rectangle : ${result}`);
+var rectangle = function(len, width)
+{
+
+    var result = len * width;
+    console.log(`The area of Rectangle : ${result}`);
+
+}
+rectangle(499, 917);
 
 console.log(`------------------- Q.4 --------------------------`);
-function swap(n1, n2)
+var swap = function(n1, n2)
 {
 console.log('Before Swapping the value :', n1, n2 );
 var temp = n1;
@@ -66,5 +70,6 @@ var result = greet.split(' ');
 var words = result.length;
 var square1 = words * words;
 console.log('Total number word of String is :', words , 'Calculate the square :' , square1);
+
 
 
