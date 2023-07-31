@@ -44,7 +44,7 @@ function voteEligibility(age, name){
 
     // if block to handle all invalid scenarios
     var ageValue = +age;
-    if (age<=0 || isNaN(ageValue)) {
+    if (age<=0 || isNaN(ageValue) || age>120) {
 
         console.log(`${name} your age ${age} is invalid`); 
     } else {
