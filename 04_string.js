@@ -59,5 +59,13 @@ var result = greet.replace('o', 'O');
 console.log(`Result string is : ${result}`);
 
 console.log(`------------------------------------`);
-var result = greet.slice(5, 12);
+var result = greet.slice(5, 15);
 console.log(`Slice from index 5 till 12 is : ${result}`);
+
+var str = "javascript"
+console.log(str.substring(2,4));
+console.log(str.length);
+
+const arr = [];
+const arr2 = [];
+console.log(arr == arr2);
