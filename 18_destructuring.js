@@ -18,7 +18,7 @@ console.log(state,college,city, pin);
 //2.Array destructuring
 
 let array = [4, 5, 6,77,88,99];
-// let array1 = array.splice(2,2 );
+// let array1 = array.splice(2,2 ); //delete the element 6 , 77
 // console.log(array);
 
 let[num1,num2,num3,num4=0] = array;

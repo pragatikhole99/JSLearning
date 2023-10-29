@@ -1,5 +1,5 @@
 //Rest = means remaning 
-//writing the parameter in the begining in not allowed  and middle is not allowed only allowed in end.
+//writing the parameter in the begining in not allowed  and middle is not allowed only allowed in end (...num).
 //only one parameter thats oaky 
 function add(num1 , num2, ...num) {
     //console.log(num);

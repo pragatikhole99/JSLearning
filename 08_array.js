@@ -74,19 +74,19 @@ let removedElement = array.splice(4);
 console.log(array);
 console.log(removedElement);
 
-var array = [10, 20, 30, 50, 10, 80, 20];
-let elementRemoved = array.splice(4, 2)
-console.log(array);
+var array22 = [10, 20, 30, 50, 10, 80, 20];
+console.log(array22);
+let elementRemoved = array22.splice(4, 2)
 console.log(elementRemoved);
 
 console.log(` Inserting the array element using splice()`);
-var array = [10, 20, 30, 50, 10, 80, 20];
-array.splice(3, 0, 100, 200, 300, 600)
-console.log(array);
+var array11 = [10, 20, 30, 50, 10, 80, 20];
+array11.splice(3, 0, 100, 200, 300, 600)
+console.log(array11);
 
-var array = [10, 20, 30, 50, 10, 80, 20];
-array.splice(4, 2, 33, 55, 66, 77 );
-console.log(array);
+var array33 = [10, 20, 30, 50, 10, 80, 20];
+array33.splice(4, 2, 33, 55, 66, 77 );
+console.log(array33);
 
 console.log(`------ concat ----------`);
 let array1 = [3, 4, 5, 6];

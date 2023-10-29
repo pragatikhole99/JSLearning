@@ -6,5 +6,5 @@ function division(num1,num2=1) {
 // division(0,7);
 // division(8,0);
 division(8);
-// division(0);
+//division(0);
 // division(0,0);

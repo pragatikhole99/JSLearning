@@ -10,7 +10,7 @@ function show ()
     }
     return innerFunction;
 }
-let inner = show();
-inner();
-//show()();
+// let inner = show();
+// inner();
+show()();
 

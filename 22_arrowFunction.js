@@ -19,3 +19,8 @@ let multiply = (num1,num2)=>{
     console.log(num1*num2);
 }
 multiply(5,8);
+
+let multiply1 = (num1,num2,num3=1)=>{
+    console.log(num1*num2*num3);
+}
+multiply1(5,8);

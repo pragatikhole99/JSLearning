@@ -21,16 +21,18 @@ for (const skill of skills) {
 
     console.log(skill);
 }
-
+console.log(`--------------------------------------------------------`);
 let isHeightKeyAvailable= map.has("height");
-console.log(isHeightKeyAvailable);
+console.log(`isHeightKeyAvailable = ${isHeightKeyAvailable}`);
 map.delete("haveKid");
 
 // console.table(map);
-
+console.log(`-------------------------------------------------------------------------`);
 console.log(map.keys());
+console.log(`-------------------------------------------------------`);
 console.log(map.values());
 map.set("rollNo", 22);
+console.log(`---------------------------------------------------`);
 console.table(map);
 console.log(`-------- Traversing map --------`);
 
@@ -38,4 +40,4 @@ let keys = map.keys();
 for (const key of keys) {
 
     console.log(`${key} ==> ${map.get(key)}`);
-}
+} 
